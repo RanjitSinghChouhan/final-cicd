@@ -6,3 +6,5 @@ cd /home/ubuntu/final-cicd >> /home/ubuntu/final-cicd/deploy.log
 
 echo 'npm install' >> /home/ubuntu/final-cicd/deploy.log 
 npm install >> /home/ubuntu/final-cicd/deploy.log
+
+pm2 start --name=final-cicd npm -- start
