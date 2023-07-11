@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/nodejs-aws-codedeploy-pipeline
+    destination: /home/ubuntu/final-cicd
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
